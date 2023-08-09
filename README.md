@@ -1,1 +1,1 @@
-# Save-Organize-Email-Files
+# Save and Organize Email Files
