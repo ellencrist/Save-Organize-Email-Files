@@ -19,21 +19,16 @@ This script uses the `pywin32` library to interact with Outlook and download ema
 3. Open the `SaveAttachment.py` file and configure options according to your needs, such as your email address, search folder and path to save attachments.
 
 ## Usage
-
 1. Make sure Outlook is open and authenticated with the correct email account.
 2. Run the `SaveAttachment.py` file.
-3. The script will look for emails in the specified folder with the subject "Document Request", download the PDF attachments and save them in the destination folder, renaming them based on subject and sender.
 
 ## Functionalities
-The automated process comprises the following steps:
+The automated process includes:
 
-1. **Subject Filtering:** The script scans the emails in the specified folder (eg Inbox) and filters out those with a matching subject. In the example provided, the subject is "Document Request".
-
-2. **Download PDF Attachments:** Once emails with the desired subject are identified, the script checks each email for attachments in PDF format and then automatically downloads them.
-
-3. **Auto Arrange:** Downloaded attachments are renamed based on subject and sender's name and then saved to a designated destination folder. This organization helps maintain a coherent structure and makes it easier to find the documents you need.
-
-
+1. Subject Filtering: The script scans emails in the specified folder (eg Inbox), filters out those having the desired subject ("Document Request").
+2. Download PDF Attachments: The script automatically downloads attachments in PDF format from identified emails.
+3. Auto Sort: Downloaded attachments are renamed based on subject and sender and then saved in the designated destination folder. This makes it easy to find the documents you need.
+   
 ## Working
 
 <a href="https://s11.gifyu.com/images/ScyAv.gif" title="Demonstration">
